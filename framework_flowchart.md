@@ -1,3 +1,5 @@
+```mermaid
+%%{init: {"flowchart": {"htmlLabels": true}}}%%
 graph LR
     %% 定义起点
     Start([<b>全量评估开始</b>]) --> FindControl{是否可找到对照组}
@@ -70,3 +72,4 @@ graph LR
     IV --> Robustness
 
     Robustness[稳健性检验: 基于经济理论业务直觉、数据描述、安慰剂检验、敏感性分析等] --> End([结束])
+```
